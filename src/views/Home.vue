@@ -3,7 +3,7 @@
     <div class="container mx-auto h-full px-4">
       <div class="flex items-center justify-start h-full">
         <div>
-          <h1 class="text-grey-darker text-4xl xl:text-5xl lg:text-5xl md:text-5xl font-bold leading-tight tracking-tight mb-8">A jumpstart for your SaaS app.</h1>
+          <h1 class="text-grey-darker text-4xl xl:text-5xl lg:text-5xl md:text-5xl font-bold leading-tight tracking-tight mb-8">A jumpstart for your SaaS app</h1>
           <div class="flex justify-start mb-8">
             <div class="bg-brand h-1 w-16 rounded"></div>
           </div>
