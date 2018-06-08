@@ -5,9 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>oco-spa</title>
+    <title>Oco - A jumpstart for your SaaS app.</title>
+    <!-- Tailwind css framework -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- Font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <!-- Styles -->
+    <style>
+      .bg-brand {
+          background-color: #F50064;
+      }
+      .text-brand {
+          color: #F50064;
+      }
+      .font-sans {
+          font-family: 'Poppins', sans-serif;
+      }
+      .py-50px {
+          padding-top: 50px;
+          padding-bottom: 50px;
+      }
+      button:focus {
+          outline:0;
+      }
+      .hover-slide-up:hover {
+          margin-top: 25px;
+          -webkit-transition: all 200ms linear;
+          -moz-transition: all 200ms linear;
+          -ms-transition: all 200ms linear;
+          -o-transition: all 200ms linear;
+          transition: all 200ms linear;
+      }
+      .hover-slide-up {
+          -webkit-transition: all 200ms linear;
+          -moz-transition: all 200ms linear;
+          -ms-transition: all 200ms linear;
+          -o-transition: all 200ms linear;
+          transition: all 200ms linear;
+      }
+      header div .hover-slide-up:hover {
+          margin-top: -10px;
+          -webkit-transition: all 200ms linear;
+          -moz-transition: all 200ms linear;
+          -ms-transition: all 200ms linear;
+          -o-transition: all 200ms linear;
+          transition: all 200ms linear;
+      }
+      header div .hover-slide-up {
+          -webkit-transition: all 200ms linear;
+          -moz-transition: all 200ms linear;
+          -ms-transition: all 200ms linear;
+          -o-transition: all 200ms linear;
+          transition: all 200ms linear;
+      }
+    </style>
   </head>
-  <body>
+  <body class="bg-white font-sans antialiased h-full text-grey-darker">
     <noscript>
       <strong>We're sorry but oco-spa doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
